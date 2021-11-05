@@ -82,8 +82,6 @@ WSGI_APPLICATION = 'dummy_app_backend.wsgi.application'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
-import mongoengine
-mongoengine.connect(db="dummyapp", host="localhost", username="", password="")
 
 AUTH_PASSWORD_VALIDATORS = [
     {
