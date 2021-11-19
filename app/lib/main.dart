@@ -2,7 +2,7 @@ import 'package:app/services/service_locator.dart';
 import 'package:flutter/material.dart';
 import 'package:app/views/access_vw.dart';
 import 'package:app/views/main_vw.dart';
-import 'package:app/views/welcomer_vw.dart';
+import 'package:app/views/welcome_vw.dart';
 
 void main() {
   initLocator();
